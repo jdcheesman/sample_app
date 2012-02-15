@@ -30,6 +30,10 @@ group :test do
   gem 'rb-fchange'
   gem 'rb-notifu'
   gem 'win32console'
+  
+  # from http://railsgotchas.wordpress.com/2011/12/16/testing-with-spork-guard-and-testunit/
+  gem 'guard-spork'
+  gem 'guard-test'
 end
 
 group :production do
