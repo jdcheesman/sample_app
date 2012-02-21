@@ -29,7 +29,9 @@ GEM
       activesupport (= 3.1.1)
     activesupport (3.1.1)
       multi_json (~> 1.0)
+    annotate (2.4.1.beta1)
     arel (2.2.1)
+    bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.0)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -166,6 +168,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate (~> 2.4.1.beta)
+  bcrypt-ruby (= 3.0.1)
   capybara
   coffee-rails (~> 3.1.1)
   guard-rspec (= 0.5.5)
