@@ -8,4 +8,8 @@ module ApplicationHelper
       "#{base_title} | #{page_title}"
     end
   end
+  
+  def logo
+	image_tag("logo.png", alt: "Logo for the Sample App", class: "round")
+  end
 end
