@@ -36,6 +36,7 @@ group :test do
   # from http://railsgotchas.wordpress.com/2011/12/16/testing-with-spork-guard-and-testunit/
   gem 'guard-spork'
   gem 'guard-test'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
