@@ -29,9 +29,9 @@ gem 'jquery-rails'
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'rb-fchange'
-  gem 'rb-notifu'
-  gem 'win32console'
+
+  #gem 'rb-fchange'
+  #gem 'rb-notifu'
   
   # from http://railsgotchas.wordpress.com/2011/12/16/testing-with-spork-guard-and-testunit/
   gem 'guard-spork'
