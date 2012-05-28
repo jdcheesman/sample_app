@@ -3,3 +3,6 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+
+rails_sample_app.sublime-project
+rails_sample_app.sublime-workspace
